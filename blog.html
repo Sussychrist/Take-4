@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website Design - DumDumb </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="account.html">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Certificate & Online Programs For 2023</h1>
+</section> 
+<!-------------------BLOG------------------------->
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg">
+        <h2>Our Certificate & Online Programs For 2023</h2>
+        <p>In some Western countries, the teaching career has received less attention and become undervalued, so it’s cool to see teachers get respect in Vietnam. There is even a national day to honour teachers, that is Vietnamese Teacher Day which is held on the 20th of November annually. On this special day, students express gratitude and respect to their teachers. This special day is usually celebrated at schools with fun activities such as singing, dancing, recitals, sports, and exhibitions. Alumni often bring some flowers and gifts and visit their teachers at their homes.</p>
+        <br>
+        <p>Vietnam is a multiethnic country with 54 ethnic groups recognized by the government. Each ethnic group has its own language and culture. The Vietnamese (Kinh) people account for roughly 86% of the country's population and mainly reside in deltas and coastal provinces. The remaining 14%, about 8.5 million people, are scattered over the mountainous and highland areas ranging from the North to the South. Minority groups have limited access to infrastructure, health service, and educational facilities. Ethnic minorities depend heavily on agriculture and have a small contribution to national economies as a whole.</p>
+        <br>
+        <p>Lotus was voted to become national flower of Vietnam in 2010. The chosen flower is widely grown in the country. Lotus is an aquatic plant, growing in muddy ponds. Leaves are waterproof and floating. Flowers rise above the water surface to get sunshine, bloom with remarkable beauty and emit a pleasant scent. Lotus is a symbol of the pure beauty that is not spoiled by the mud, and the strong spirit of Vietnamese who are going through all adversities to show their best traits to the outside world, regardless of harsh circumstances.</p>
+        <br>
+        <p>Vietnamese cuisine is characterized by endless variety and extraordinary flavours. Banh mi and pho are two Vietnamese words that go directly into Oxford Dictionary instead of being translated into English. The former is the signature sandwich that is getting more and more popular with people around the world. Generally speaking, it is a loaf of bread with the filling of the three main components: meat (roasted pork, barbecue or grilled pork), vegetables (cucumber slices, pickled carrot, and cilantro) and sauce (chili, tomato or soy sauce). The latter is rice noodles soup served with a variety of raw or cooked beef, beef tendon or beef meatball, bean sprout and herbs. Pho is eaten at any time of the day but especially for breakfast.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea row="6" placeholder="Enter your comment">
+                </textarea>
+                <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+        
+        </div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>29</span>
+        </div> 
+        <div>
+            <span>Computer Science</span>
+            <span>11</span>
+        </div> 
+        <div>
+            <span>Machine Learning</span>
+            <span>45</span>
+        </div> 
+        <div>
+            <span>AutoCAD</span>
+            <span>34</span>
+        </div> 
+        <div>
+            <span>A.I Development</span>
+            <span>51</span>
+        </div> 
+        <div>
+            <span>Journalism</span>
+            <span>49</span>
+        </div> 
+    </div>
+    </div>
+</section>
+
+<!-------------------FOOTER------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are one of the largest, most diverse universities in the UK with over 120,000 students in London,<br>and a further 50,000 studying across 190 countries for a University of IDK degree.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"> by DumDumb</i></p>
+</section>
+    
+<!-------------------JavaScript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px"
+    }
+</script>
+    
+    
+    
+</body>
+</html>
