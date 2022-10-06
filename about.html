@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University Website Design - DumDumb </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="account.html">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>About Us</h1>
+</section> 
+<!-------------------CONTENTS------------------------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>Ho Chi Minh, the first president of Vietnam, also known as Uncle Ho, died in 1969, and his body is now displayed in a mausoleum located in Ha Noi capital. For many Vietnamese, this place is a destination of religious pilgrimage. If you want to see Ho Chi Minh’s corpse but feel reluctant due to long queue lines, think again! Actually, the lines move really fast. Visitors are not allowed to pause to take a picture. You are expected to move along while watching. The mausoleum is typically closed from September to December as it is said that the body is brought to Russia annually for maintenance.</p>
+            <h2>ICTU international Joint Training Programme</h2>
+            <p>Since 2019, ICTU has continuously cooperated with Kyungpook National University (KNU), South Korea to open a 3+1 joint training project “The Twinning Undergraduate Programme in Software Engineering”. Taking part in this programme, students will study the first three years at ICTU campus and the last year at KNU campus. Gradudate students will be conferred two bachelor degrees: Bachelor in Computer Science and Engineering by KNU and Bachelor in Software Engineering by ICTU. To train highly qualified bachelors in the field of Computer Science and Engineering conferred the bachelor degree in Computer Science and Engineering by Kyungpook National University; and to provide Thai Nguyen province in particular and the northern midland and mountainous provinces in general with human resources of ethical quality, capacity and high qualifications to meet the needs of modernization of Vietnam.</p>
+            <h3>ICTU delegation paid a visit to Kyungpook University</h3>
+            <p>From October 17 to 20, 2018, ICTU delegation led by Dr. Vu Duc Thai – Vice Rector visited and worked at the two partner educational institutions in South Korea namely Kyungpook National University (KNU) and Gumi University (GU). These two partners signed a memorandum of understanding with ICTU in August 2018 to promote international cooperation in training and exchange of lecturers and students.</p>
+            <a href="Ictu-International-Programme.html" class="hero-btn red-btn"> EXPLORE MORE!</a>
+            <a href="aboutme.html" class="hero-btn blue-btn">About Me</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+            <img src="images/image5.jpg">
+            <img src="images/image1.jpg">
+        </div>
+    </div>
+</section>
+
+<!-------------------FOOTER------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are one of the largest, most diverse universities in the UK with over 120,000 students in London,<br>and a further 50,000 studying across 190 countries for a University of IDK degree.Want to know more about <a href="Ictu-International-Programme.html">ICTU International Programme.</a></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"> by Nguyen Hoa Thuan(from DumDumb)</i></p>
+</section>
+    
+<!-------------------JavaScript for Toggle Menu------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px"
+    }
+</script>
+    
+    
+    
+</body>
+</html>
